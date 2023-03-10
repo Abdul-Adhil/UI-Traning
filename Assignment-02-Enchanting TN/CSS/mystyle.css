@@ -1,0 +1,88 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+}
+
+.headerH1 {
+  background-color: #42133e;
+  padding: 20px 0;
+}
+
+.imgDiv1 > img {
+  width: 100%;
+}
+h1 {
+  color: white;
+  text-align: center;
+
+  font-size: 300%;
+  font-weight: 700;
+}
+.fistSectionRow {
+  margin-left: 90px;
+  padding-top: 60px;
+}
+
+.fistSectionRow > .column {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+}
+.fistSectionRow > .column > img {
+  width: 100%;
+  display: block;
+}
+.fistSectionRow > .column > h2 {
+  font-weight: 100;
+  font-size: 35px;
+  width: 90%;
+
+  margin-top: 5px;
+}
+
+.fistSectionRow > .column > p {
+  width: 400px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.78);
+  font-weight: 300;
+}
+.fistSectionRow > .column > .distName {
+  font-weight: bolder;
+  font-size: 22px;
+}
+.fistSectionRow > .column > .readMore {
+  color: white;
+  background-color: #7a1655;
+  display: inline;
+  padding: 10px 20px;
+}
+.section3 > h2 {
+  padding-top: 80px;
+  color: #7a1655;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 300;
+}
+.section3 > p {
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.78);
+  margin: 0 90px;
+  padding: 40px 100px 100px 100px;
+  /* margin-bottom: 80px; */
+}
+footer {
+  background-color: #7a1655;
+  color: white;
+  height: auto;
+  padding: 30px 80px;
+}
+footer > h3 {
+  margin: 0;
+}
+footer > h2 {
+  margin: 0;
+}
